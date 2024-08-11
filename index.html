@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="Fav icon" href="netflix_logo_icon_170919.ico" type="image/x-icon">
-    
+    <script>
+        function redirecionar() {
+            window.location.href='https://www.netflix.com/browse';
+        }
+
+    </script>
     <title>Netflix clone</title>
 </head>
 <body>
@@ -22,7 +27,7 @@
             <label for="password">SENHA</label>
             <input type="password" id="password" name="password" placeholder="Senha">
         </div>
-        <button type="submit">Entrar</button>
+       <button onclick="redirecionar()">Entrar</button>
    </form
 </body>
 </html>
